@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://img.magnific.com/free-vector/beautiful-bokeh-background_23-2148512132.jpg?semt=ais_hybrid&w=740&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    min-height: 100vh
+}
+.back{
+    display: flex;
+    flex-direction: row;
+}
+.word{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.w{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.form{
+    width: 350px;
+    justify-content: center;
+    border:none;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.685);
+    padding: 10px;
+    justify-content: center;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 5px;
+    font-weight: bolder;
+}
+input{
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    width: 300px;
+}
+.submit{
+    width: 60px;
+    height: 30px;
+    margin-left: 8px;
+    padding: 3px;
+    background-color:aqua;
+    border-radius: 10px;    
+}
+.submit:hover{
+    background-color: skyblue;
+}
+.v{
+    font-size: 15px;
+    font-weight: bold;
+}
+.submit :hover{
+    cursor: pointer;
+}
+.foot{
+    padding: 7px;
+}
+.result{
+    color: black;
+    padding: 7px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media(max-width:768px){
+    .word{
+        font-family: cursive;
+        font-size: 50px;
+        line-height: 0.9;
+    }
+    .w{
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: lighter;
+        color: rgba(0, 0, 0, 0.678);
+
+    }
+    .form{
+        width: 500px;
+    }
+    .label{
+        font-family: serif;
+        font-weight: bold;
+        font-size: xx-large;
+        margin-left: 10px;
+
+    }
+    .input{
+        border: 1px solid;
+        border-radius: 30px;
+        cursor: text;
+        height: 20px;
+        width: 290px;
+        margin-top: 2px;
+        padding: 10px;
+    }
+    .submit{
+        background-color: aqua;
+        margin-top: 8px;
+        border-radius: 8px;
+        width: 70px;
+        height: 33px;
+    }
+    .submit:hover{
+        background-color: skyblue;
+    }
+    .label{
+        font-weight: normal;
+        margin-top: 2px;
+    }
+}
