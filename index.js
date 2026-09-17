@@ -17,7 +17,7 @@ app.get('/api/:email', async (req, res) => {
   const options = {method: 'GET'};
   
   
-    const API_KEY='5aff9a7a413b42fdbb468f8bab08b31f';
+    const API_KEY='36b2063f4d854aca9a74b72d524ee3f5';
     const url =`https://emailreputation.abstractapi.com/v1/?api_key=${API_KEY}&email=${email}`;
 
      const response = await fetch(url, {method: 'GET'});
